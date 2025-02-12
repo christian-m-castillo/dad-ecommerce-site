@@ -28,11 +28,6 @@ header h1 {
   font-size: 1.5rem;
 }
 
-header a {
-  color: #fff;
-  text-decoration: none;
-}
-
 #products-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -102,5 +97,81 @@ header a {
 }
 
 #checkout:hover {
+  background: #0056b3;
+}
+
+#checkout-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background: #218838;
+}
+
+#confirmation-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f8f9fa;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
   background: #0056b3;
 }
